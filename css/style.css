@@ -1,0 +1,12 @@
+.title {
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: none;
+}
+.thumbnail .caption {
+    text-align: center;
+}
