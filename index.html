@@ -1,1 +1,37 @@
-hello world
+<!doctype>
+<html>
+<head>
+    <title>Mreza505</title>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+</head>
+<body>
+    
+<div id="instafeed"></div>
+    
+<script type="text/javascript">
+
+    //    var feed = new Instafeed({
+//        tagged: 'tagged',
+//        tagName: 'novisad',
+//        clientId: '43330511fd4b4dbf839cfaf10c73c2c5'
+//    });
+//    feed.run();
+    
+    console.log(feed);
+    
+var feed = new Instafeed({
+		get: 'user',
+		userId: 2166641332,
+		accessToken: '94764.1677ed0.c6256a27eddf41709ddf29af3469a4e5',
+		resolution: 'standard_resolution',
+});    
+feed.run();
+    
+</script>
+    
+    
+    
+
+
+</body>
+</html>
