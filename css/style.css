@@ -55,7 +55,7 @@ border: 1px solid #dbdbdb;
 }
 
 #instafeed a {
-  color: #000;
+  color: #454545;
 }
 .nav>li>a {
   color: #cccccc;
@@ -71,4 +71,19 @@ border: 1px solid #dbdbdb;
 .nav>li>a:hover {
   background-color: #fff;
   color: #000;
+}
+
+
+.text-about {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.nav li a {
+  position: relative;
+
+  margin-right: -7px;
+  margin-left: -7px;
 }
