@@ -3,6 +3,8 @@
 
     letter-spacing: -3px;
     font-family: Open Sans;
+    font-size: 36px;
+    color: #000;
 }
 
 .thumbnail {
@@ -29,4 +31,33 @@
 .thumbnail a img {
 border: 1px solid #dbdbdb;
 
+}
+
+.navbar-default {
+  background: #fff;
+  /*border-bottom: 1px solid #eee;*/
+}
+
+.navbar {
+    padding:15px;
+     -webkit-transition: background .8s ease-out,padding .8s ease-out;
+        -moz-transition: background .8s ease-out,padding .8s ease-out;
+        transition: background .8s ease-out,padding .8s ease-out;
+}
+
+.navbar-pad-original {
+      padding:0px;
+}
+
+#instafeed {
+  padding-top:60px;
+}
+
+#instafeed a {
+  color: #000;
+}
+
+.nav>li>a:hover {
+  background-color: #fff;
+  color: #000;
 }
